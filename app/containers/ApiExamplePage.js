@@ -9,7 +9,7 @@ function mapStateToProps(state) {
   };
 }
 
-ApiActions.fetchJSON('http://wakenmedia.com/data.json');
+//ApiActions.fetchJSON('http://wakenmedia.com/data.json');
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(ApiActions, dispatch);
